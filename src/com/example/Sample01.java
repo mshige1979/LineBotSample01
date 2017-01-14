@@ -31,10 +31,10 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 public class Sample01 {
 
     // アクセストークン
-	static String access_token = "JoGPMXrT0qrP/20D2d33TfFBeZPKF5o8tBL59S4id+NY1VjHV5fg2wCOs97f9D9aiLc44id96Xdn6niFY7oo2M1UTjJSb6OrPO43gim7M6pRvMdps6RWv9zuB9n08t9B8+xpoFV4vCE4+7P5ijLungdB04t89/1O/w1cDnyilFU=";
+	static String access_token = "アクセストークン";
 
 	// シークレットアクセストークン
-	static String channel_secret = "aec190a3839462a454906032f834adf4";
+	static String channel_secret = "シークレットアクセストークン";
 	
 	public static void main(String[] args) throws JsonProcessingException {
 	
@@ -45,7 +45,7 @@ public class Sample01 {
 	
 	public void send() throws JsonProcessingException {
 		
-		String TO = "U2bf985068dbfef16569d981d24602eba";
+		String TO = "宛先のID";
 		
 		LineBotRequest lineReq = null;
 		
